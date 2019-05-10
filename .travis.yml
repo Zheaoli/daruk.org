@@ -2,6 +2,13 @@ env:
   global:
     - GH_REF: github.com/Zheaoli/daruk.org.git
     - secure: "W9LjScwbCGVfWlFgC6d3HEoJxS5M71EsSVbK0CX5fJmumLZGefG8GSlpwT1/xAuoGfB64lCfOY8xc6wAlekxeyVDTEvup0GsVNkl4GOSaDFfWRUU/goedsC7OAwC60n3NjE6t+37yX+wCX9Q4zXNwW+S9rDepUtJOHYKB4jUstGd/Cu7XNH89WtBUc+NNLU4TMgRGN5aGMxGRyoSYNFA22s0T4fTjKjxGRCAR8YFOOTMDGFWL9yAixTt4M2HdTwtQKgTMDS6qskeFlVdHGcVZVwhf82XSSfssdNfoqflNpIieyVVvNQXfA9uYfvQeDHqckuQvr4zHl9q1LEWbIhnyI/aMNkiI67sjdYfSgvPlYYcLoYWcfcIxcDtQkrxQU2OYBfWt3basrrTjoQB8NWve0bs8c7ge2DYa+53qoK+DcAwP48LJVMVNj80f1+e3ERxfPSlfSvyvQvRmLxMov1CXbLdb4l42dnn+zw47qvqFeL3tGPTH6eYcS6EqFwqHYPPTjICaDaSCnHiKmDcX8KB2GBUr/d6WpOjp8bC77bsfnTF2dA3Q/b9CBaQ68ACEktoy4DxwCc5+ToUQ86RfkPKu3kMIQHgNdS51hyIZr2pI+oZujIdz1dW1NbOjD8uIlKD6O1Z/nJVroo5pEyiVvOsDFYKolVFdgUvcmeHpFbvHvU="
+language: node_js
+
+node_js:
+  - 10
+  
+install:
+  - npm install
 
 script:
   - npm run build
