@@ -6,14 +6,14 @@ language: node_js
 
 node_js:
   - 10
-  
+
 install:
   - npm install
 
 script:
   - npm run build
 
-after-script:
+after_script:
   - cd docs/.vuepress/dist
   - git config user.name "doc"
   - git config user.email "doc"
